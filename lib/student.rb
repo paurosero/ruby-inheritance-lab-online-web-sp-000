@@ -1,11 +1,12 @@
 class Student < User
+attr_accessor :knowledge
 
   def initialize
     @knowledge = []
   end
   
   def learn(sring)
-    @knowledge << d
+    @knowledge << self
   end
   
   def method(array)
