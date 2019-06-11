@@ -5,11 +5,11 @@ attr_accessor :knowledge
     @knowledge = []
   end
   
-  def learn(sring)
-    @knowledge << self
+  def learn(knowledge)
+    @knowledge << knowledge
   end
   
-  def method(array)
+  def knowledge
     @knowledge
-  en
+  end
 end
